@@ -1,0 +1,37 @@
+.blog {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #00c3ff, #80ffee);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+
+.title {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.des {
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    max-width: 97%;
+    min-width: 97%;
+    min-height: 30%;
+}
+
+.blog button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    background-color: rgb(255, 218, 230);
+    color: rgb(247, 46, 46);
+}
+
+h1 {
+    text-align: center;
+}

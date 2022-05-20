@@ -1,0 +1,47 @@
+.container {
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+    height: 100%;
+    width: 100%;
+    min-height: 93.5vh;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+form label {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+
+form textarea {
+    margin: 10px;
+    padding: 20px;
+    font-size: large;
+}
+
+form button {
+    background-color: rgb(153, 249, 217);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+}
